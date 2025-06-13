@@ -1,5 +1,6 @@
 # Ethical-Hacking
 This repository has project reports from my ethical hacking practice on the Infosec Lab platform. Each report explains a specific lab, its goals, the steps I followed, the tools I used, and what I learned. Below is a brief overview of Infosec Lab and a summary of each report.
+
 Lab 1: Performing Reconnaissance from the WAN In this lab, the main objective was to practice external network reconnaissance techniques by scanning a network protected by a pfSense firewall. The tasks involved identifying open ports, detecting operating systems and services, retrieving hashed passwords from the target system, and ultimately gaining administrator access to a Windows Server using Remote Desktop Protocol (RDP).
 
 To achieve these objectives, I used several tools and techniques throughout the lab. The primary tools included Kali Linux 2 Attack Machine for launching attacks, Nmap for comprehensive port scanning and service detection, Netcat for interacting with open ports, and Telnet to test services running on specific ports. Additionally, I utilized Linux commands to retrieve the /etc/shadow file containing password hashes and used Remote Desktop Protocol (RDP) to establish remote access to the Windows Server after successfully cracking the credentials.
